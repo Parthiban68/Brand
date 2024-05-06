@@ -23,7 +23,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
-          <Route path="/Prodect" element={<Prodect/>}></Route>
+          <Route path="/Prodect" element={<RequirdAuth><Prodect/></RequirdAuth>}></Route>
           <Route path="/contact" element={<Contact></Contact>}></Route>
           <Route path="/log-in" element={<Login></Login>}></Route>
           <Route path="/sign-in" element={<SignIn />}></Route>

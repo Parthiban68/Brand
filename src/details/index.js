@@ -6,26 +6,22 @@ import {
 export const card1 = [
     {
         productid: 1,
-        name: "hfdhj",
-        descreption: "jkhh",
+        name: "Himalaya",
         image: img1
     },
     {
         productid: 2,
-        name: "hfdhj",
-        descreption: "jkhh",
+        name: "ITC",
         image: img2
     },
     {
         productid: 3,
-        name: "hfdhj",
-        descreption: "jkhh",
+        name: "Pepsi",
         image: img3
     },
     {
         productid: 4,
-        name: "hfdhj",
-        descreption: "jkhh",
+        name: "Nestle",
         image: img4
     },
 ]
