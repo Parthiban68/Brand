@@ -14,6 +14,7 @@ import Profile from "./component/Profile";
 import AuthProvider from "./component/Auth";
 import SubProducts from "./component/SubProducts";
 import SubProductDetails from "./component/SubProductDetails";
+// import './style.css'
 
 function App() {
   return (
