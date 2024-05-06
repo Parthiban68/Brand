@@ -1,52 +1,68 @@
-import React from 'react'
-
+import React from 'react';
 export default function Contact() {
   return (
-    <div>
-      {/* <div className="card-group">
-        <div className="card">
-          <img src="..." className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural lead-in to
-              additional content. This content is a little bit longer.
-            </p>
-            <p className="card-text">
-              <small className="text-body-secondary">Last updated 3 mins ago</small>
-            </p>
+    <section id="contact" className="contact section-padding ">
+    <div className="container mt-5 mb-5">
+      <div className="row">
+        <div className="col-md-12">
+          <div className="section-header text-center pb-5">
+            <h2>Contact Us</h2>
           </div>
         </div>
       </div>
-
-      <div className="card">
-          <img src="..." className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This card has supporting text below as a natural lead-in to additional
-              content.
-            </p>
-            <p className="card-text">
-              <small className="text-body-secondary">Last updated 3 mins ago</small>
-            </p>
-          </div>
+      <div className="row m-0">
+        <div className="col-md-12 p-0 pt-4 pb-4">
+          <form action="#" className="bg-light p-4 m-auto">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="mb-3">
+                  <input
+                    className="form-control"
+                    placeholder="Full Name"
+                    required=""
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div className="col-md-12">
+                <div className="mb-3">
+                  <input
+                    className="form-control"
+                    placeholder="Email"
+                    required=""
+                    type="email"
+                  />
+                </div>
+              </div>
+              <div className="col-md-12">
+                <div className="mb-3">
+                  <textarea
+                    className="form-control"
+                    placeholder="Message"
+                    required=""
+                    rows={3}
+                    defaultValue={""}
+                  />
+                </div>
+              </div>
+              <button
+                className="btn btn-lg btn-block mt-3" style={{backgroundColor:"orangered"}}
+                type="button"
+              >
+                Send Now
+              </button>
+            </div>
+            <div className="social">
+              <i className="fa-brands fa-facebook-f" />
+              <i className="fa-brands fa-whatsapp " />
+              <i className="fa-brands fa-x-twitter" />
+              <i className="fa-brands fa-instagram" />
+            </div>
+          </form>
         </div>
-        <div className="card">
-          <img src="..." className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural lead-in to
-              additional content. This card has even longer content than the first to
-              show that equal height action.
-            </p>
-            <p className="card-text">
-              <small className="text-body-secondary">Last updated 3 mins ago</small>
-            </p>
-          </div>
-        </div> */}
-
+      </div>
     </div>
+  </section>
+  
   )
 }

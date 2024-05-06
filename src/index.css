@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
 * {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -13,3 +14,4 @@ body {
 .Target .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
+
