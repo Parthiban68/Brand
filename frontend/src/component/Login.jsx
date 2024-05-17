@@ -30,8 +30,10 @@ export default function Login() {
           if(res.data[0]?.email){
            if(res.data[0]?.password === password){
               seterrmessage('')
-                alert('Login successfull')
+                
                 auth.login(res.data[0]?.username)
+                alert("Login sucsesfully")
+                Navigate('/profile')
            }
            else{
               seterrmessage("Incorrect password")
@@ -51,13 +53,13 @@ export default function Login() {
       <div className="log-in-div">
         <h1>Login</h1>
         <form onSubmit={handlelogin}>
-        <label className="label">Email</label>
+        <label className="labele">Email</label>
         <br />
-        <input type="email" id="loin-input-email" placeholder="Enter Your Email" value={email} onChange={(e)=>{setemail(e.target.value)}}/>
+        <input type="email" id="login-input-email" placeholder="Enter Your Email" value={email} onChange={(e)=>{setemail(e.target.value)}} required/>
         <br />
-        <label className="label">Password</label>
+        <label className="labele">Password</label>
         <br />
-        <input type="password" id="loin-input-password" placeholder="Enter Your Password" value={password} onChange={(e)=>{setpassword(e.target.value)}}/>
+        <input type="password" id="loin-input-password" placeholder="Enter Your Password" value={password} onChange={(e)=>{setpassword(e.target.value)}} required/>
         <br />
         <button class="button-77" role="button" type="submit" >Login now</button>
         </form>

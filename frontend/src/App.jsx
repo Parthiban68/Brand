@@ -15,6 +15,7 @@ import AuthProvider from "./component/Auth";
 import SubProducts from "./component/SubProducts";
 import SubProductDetails from "./component/SubProductDetails";
 // import './style.css'
+import Footer from './component/Footer'
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
           <Route path="/subproduct/:id" element={<SubProducts/>}/>
           <Route path="/subproductdetails/:id" element={<SubProductDetails/>}/> 
         </Routes>
+        <br />
+        <Footer/>
 
       </AuthProvider>
     </>

@@ -9,17 +9,16 @@ export default function Profile(props) {
 
   const handlelogout=()=>{
     Auth.logout()
+    alert("log out sucsesfully !")
     Navigate("/")
   }
   return (
-    <div>
+
       <div className='profile-div'>
       <h1>Profile</h1>
       <div className='img-div'><img src='#'/> </div>
       <h3>Welcome "{Auth.user}"</h3>
       <button className='button-77' onClick={handlelogout}>Logout</button>
-      
-      </div>
     </div>
   )
 }

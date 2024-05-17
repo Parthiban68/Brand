@@ -47,7 +47,7 @@ export default function Contact() {
               </div>
               <button
                 className="btn btn-lg btn-block mt-3" style={{backgroundColor:"orangered"}}
-                type="button"
+                type="button" onClick={()=>{alert("send sucsesfully !")}}
               >
                 Send Now
               </button>

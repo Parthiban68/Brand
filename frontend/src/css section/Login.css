@@ -1,4 +1,4 @@
-.log-in-div form input{
+.log-in-div input{
   border: 1px solid orangered;
   margin: 10px;
   border-radius: 20px;
@@ -43,48 +43,19 @@
 .button-77{
   text-align: center;
   position: relative;
-  left: 27%;
+  left: 30%;
+}
+form{
+  width: 100%;
 }
 
-/* ////////////////////////////////////////////////////////////////////////// */
-
-/* .log-in-div form input {
-  border: 1px solid orangered;
-  margin: 10px;
-  border-radius: 20px;
+.button-77{
   position: relative;
-  width: 70%;
-  left: 13%;
+  left: 34%;
 }
 
-.log-in-div {
-  width: 30%;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border: solid 2px orangered;
-  border-radius: 30px;
-  margin-top: 30px;
-  background-color: rgb(238, 235, 235);
-}
 
-.log-in-parent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.label {
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.log-in-div input::placeholder {
-  color: orangered;
-  text-align: center;
-} */
 
 
 /* ==================================================== */
@@ -92,6 +63,10 @@
 .log-in-div{
   width: 90%;
   height:600px;
+}
+.button-77{
+  position: relative;
+  left: 30%;
 }
 
 

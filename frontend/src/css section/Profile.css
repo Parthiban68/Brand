@@ -12,6 +12,10 @@ border-radius: 50%;
 position: relative;
 left: 46.5%;
 }
+.profile-div .button-77{
+  position: relative;
+  left: 0.1%;
+}
 
 @media(max-width:576px){
 .img-div{
